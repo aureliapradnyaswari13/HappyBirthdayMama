@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Momogi! ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="floating-hearts" id="hearts"></div>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">HERE'S SOMETHING FOR YOU! ♡</p>
+
+            <h1>Happy Birthday,<br>
+                <span>Mama!</span>
+            </h1>
+
+            <p class="hero-desc">
+                Today is all about celebrating you
+                and all the beautiful things you bring into this world.
+            </p>
+
+            <button class="open-btn" onclick="openSurprise()">
+                Click here and figure it out! ♡
+            </button>
+
+            <div class="hero-decoration">✿</div>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/foto1.jpg" alt="Mama's Birthday">
+        </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+
+        <p class="eyebrow">WE LOVE YOU MAMA</p>
+
+        <h2>Captured <i>moments.</i></h2>
+
+        <p class="section-desc">
+   
+        </p>
+
+        <div class="photo-grid">
+
+            <div class="photo photo-tall">
+                <img src="images/foto2.jpg" alt="Memory 1">
+            </div>
+
+            <div class="photo photo-small">
+                <img src="images/foto3.jpg" alt="Memory 2">
+            </div>
+
+            <div class="photo photo-small">
+                <img src="images/foto4.jpg" alt="Memory 3">
+            </div>
+
+            <div class="photo photo-tall">
+                <img src="images/foto5.jpg" alt="Memory 4">
+            </div>
+
+            <div class="photo photo-tall">
+                <img src="images/foto6.jpg" alt="Memory 5">
+            </div>
+
+            <div class="photo photo-small">
+                <img src="images/foto8.jpg" alt="Memory 7">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="letter-section section">
+
+        <h2>A Letter <i>from Papa.</i></h2>
+
+        <div class="envelope" onclick="openLetter('letterModal1')">
+            <div class="envelope-icon">💌</div>
+            <h3>You've got a letter!</h3>
+            <button class="letter-btn">Open Letter</button>
+        </div>
+
+        <div class="letter-modal" id="letterModal1">
+            <div class="letter-content">
+                <button class="close-btn" onclick="closeLetter('letterModal1')">×</button>
+
+                <p class="eyebrow">DEAR, MY LOVE ♡</p>
+
+                <h2>To my dearest wife,</h2>
+
+                <p>
+                    Happy Birthday, my love.
+                    I hope you know how grateful
+                    I am to have you by my side.
+                    Thank you for being such
+                    a wonderful wife, a loving mother,
+                    and the heart of our family.
+
+                    Through all the years we've shared,
+                    you've brought so much warmth,
+                    strength, and happiness into our lives.
+                </p>
+
+                <p>
+                    I may not always say it,
+                    but I appreciate every little thing
+                    you do and every sacrifice
+                    you've made for our family.
+
+                    And no matter how many years go by,
+                    I hope we get to make many more
+                    memories together.
+                </p>
+
+                <h3>I love you! ♡</h3>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section-ewa" class="letter-section">
+
+        <h2>A Letter <i>from Reswa.</i></h2>
+
+        <div class="envelope" onclick="openLetter('letterModal2')">
+            <div class="envelope-icon">💌</div>
+            <h3>You've got a letter!</h3>
+            <button class="letter-btn">Open Letter</button>
+        </div>
+
+        <div class="letter-modal" id="letterModal2">
+            <div class="letter-content">
+                <button class="close-btn" onclick="closeLetter('letterModal2')">×</button>
+
+                <p class="eyebrow">DEAR MAMA,</p>
+
+                <p>
+                    Happy birthday mama semoga panjang umur,
+                    sehat selalu, dan selalu support reswa
+                    apapun dan harapan ya semoga reswa
+                    bisa dapet tempat magang dan kuliahnya
+                    sukses selalu dan pekerjaan lancar selalu
+                </p>
+
+                <h3>Happy Birthday, Mama!</h3>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="letter-section section">
+
+        <h2>A Letter <i>from Dik Lia.</i></h2>
+
+        <div class="envelope" onclick="openLetter('letterModal3')">
+            <div class="envelope-icon">💌</div>
+            <h3>You've got a letter!</h3>
+            <button class="letter-btn">Open Letter</button>
+        </div>
+
+        <div class="letter-modal" id="letterModal3">
+            <div class="letter-content">
+                <button class="close-btn" onclick="closeLetter('letterModal3')">×</button>
+
+                <p class="eyebrow">Dear Mama,</p>
+
+                <h2>The Toughest Mother,</h2>
+
+                <p>
+                    Terima kasih sudah selalu sayang dan merawat adek dari kecil.
+                    Selalu berusaha memenuhi semua kebutuhan adek.
+                    I hope you never stop growing, dreaming,
+                    laughing, and finding happiness in the
+                    smallest things.
+                </p>
+
+                <p>
+                    I hope you always remember that you are
+                    loved and appreciated!
+                </p>
+
+                <h3>Happy Birthday, Mama!♡</h3>
+
+                <p class="signature">Sending you the biggest hug.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="final-section">
+
+        <div class="final-content">
+            <div class="final-heart">♡</div>
+
+            <h1>Keep shining,<br>
+                <i>just the way you are.</i>
+            </h1>
+
+            <h1>We Love You! ♡</h1>
+
+            <button class="back-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                Back to the beginning
+            </button>
+
+            <p class="footer">MADE WITH LOVE, JUST FOR YOU ♡</p>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
